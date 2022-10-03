@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EEE;
+    font-family: 'Combo',cursive;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:lemonchiffon;
+    margin:0 auto;
+    padding: 20px;
+}
+.image{
+    height: 120px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius:50% ;
+    float: left;
+}
+.name{
+    float: left;
+    padding: 30px;
+
+}
+h1,h2,h3,h4,h5{
+    color: darkcyan;
+}
+.mail{
+    float: right;
+    padding: 30px;
+    
+}
+.mail a{
+text-decoration: none;
+color: teal;
+font-weight: bold;
+}
+.mail a:hover{
+text-decoration: underline;
+color: tomato;
+}
+.cleardiv{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20PX auto;
+    border-bottom: none;
+}
+/*personal section start*/
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.commonhr{
+    border: solid black 1px;
+    border-bottom: none;
+    margin: 15px auto;
+}
+
+.e1{
+    float: left;
+    width: 45%;
+}
+.e2{
+   float: right; 
+   width: 45%;
+}
+.f{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.f a{
+    color: white;
+    text-decoration: none;
+    margin:20px ;
+}
+.f P{
+    color: white;
+    
+    margin-top:20px ;
+}
+
+.f a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
